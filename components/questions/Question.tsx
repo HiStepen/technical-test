@@ -88,7 +88,7 @@ const Question = ({ ...props }) => {
           <LKD>
             2<sup>nd</sup>
           </LKD>{' '}
-          place athlete&apos;s rank is <LKD>&quot;"Silver Medal&quot;</LKD>.
+          place athlete&apos;s rank is <LKD>&quot;Silver Medal&quot;</LKD>.
         </li>
         <li>
           The{' '}
@@ -110,7 +110,7 @@ const Question = ({ ...props }) => {
           <LKD>
             x<sup>th</sup>
           </LKD>{' '}
-          place athlete&apos;s rank is <LKD>"x"</LKD>).
+          place athlete&apos;s rank is <LKD>&quot;x&quot;</LKD>).
         </li>
       </ul>
       Return an array <LKD>answer</LKD> of size <LKD>n</LKD> where <LKD>answer[i]</LKD> is the rank of the{' '}
@@ -135,7 +135,7 @@ const Question = ({ ...props }) => {
         <p className='pl-2 border-l-4 border-white/50'>
           <span className='font-bold'>Input:</span> score = [10,3,8,9,4]
           <br />
-          <span className='font-bold'>Output:</span> ["Gold Medal","5","Bronze Medal","Silver Medal","4"]
+          <span className='font-bold'>Output:</span> [&quot;Gold Medal&quot;,&quot;5&quot;,&quot;Bronze Medal&quot;,&quot;Silver Medal&quot;,&quot;4&quot;]
           <br />
           <span className='font-bold'>Explanation:</span> The placements are [1st, 5th, 3rd, 2nd, 4th].
           <br />
