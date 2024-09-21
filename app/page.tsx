@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { useState } from 'react';
 import QuestionScreen from '../components/questions/QuestionScreen';
 
 export default function Home() {

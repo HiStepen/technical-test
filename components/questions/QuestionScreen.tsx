@@ -1,6 +1,6 @@
 'use client';
 
-import { MouseEventHandler, useState } from 'react';
+import { useState } from 'react';
 import CDialog from '../common/CDialog';
 import { Button } from '@headlessui/react';
 import Question from './Question';

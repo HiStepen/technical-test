@@ -1,6 +1,6 @@
 'use-client ';
 import React from 'react';
-import { DialogPanel, DialogTitle, Description, Button, Dialog } from '@headlessui/react';
+import { DialogPanel, DialogTitle, Dialog } from '@headlessui/react';
 
 interface CDialogProps {
   open: boolean;

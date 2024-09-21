@@ -1,5 +1,5 @@
 import { Field, Input, Label } from '@headlessui/react';
-import { FormEvent, FormEventHandler, useMemo, useState } from 'react';
+import { FormEvent, useMemo, useState } from 'react';
 import LKD from '../common/LKD';
 import Table from '../common/Table';
 
@@ -81,21 +81,21 @@ const Question = ({ ...props }) => {
           <LKD>
             1<sup>st</sup>
           </LKD>{' '}
-          place athlete's rank is <LKD>"Gold Medal"</LKD>.
+          place athlete&apos;s rank is <LKD>&quot;Gold Medal&quot;</LKD>.
         </li>
         <li>
           The{' '}
           <LKD>
             2<sup>nd</sup>
           </LKD>{' '}
-          place athlete's rank is <LKD>"Silver Medal"</LKD>.
+          place athlete&apos;s rank is <LKD>&quot;"Silver Medal&quot;</LKD>.
         </li>
         <li>
           The{' '}
           <LKD>
             3<sup>rd</sup>
           </LKD>{' '}
-          place athlete's rank is <LKD>"Bronze Medal"</LKD>.
+          place athlete&apos;s rank is <LKD>&quot;Bronze Medal&quot;</LKD>.
         </li>
         <li>
           For the{' '}
@@ -110,7 +110,7 @@ const Question = ({ ...props }) => {
           <LKD>
             x<sup>th</sup>
           </LKD>{' '}
-          place athlete's rank is <LKD>"x"</LKD>).
+          place athlete&apos;s rank is <LKD>"x"</LKD>).
         </li>
       </ul>
       Return an array <LKD>answer</LKD> of size <LKD>n</LKD> where <LKD>answer[i]</LKD> is the rank of the{' '}
@@ -124,7 +124,7 @@ const Question = ({ ...props }) => {
         <p className='pl-2 border-l-4 border-white/50'>
           <span className='font-bold'>Input:</span> score = [5,4,3,2,1]
           <br />
-          <span className='font-bold'>Output:</span> ["Gold Medal","Silver Medal","Bronze Medal","4","5"]
+          <span className='font-bold'>Output:</span> [&quot;Gold Medal&quot;,&quot;Silver Medal&quot;,&quot;Bronze Medal&quot;,&quot;4&quot;,&quot;5&quot;]
           <br />
           <span className='font-bold'>Explanation:</span> The placements are [1st, 2nd, 3rd, 4th, 5th].
           <br />
@@ -187,7 +187,7 @@ const Question = ({ ...props }) => {
         <p className='pl-2 border-l-4 border-white/50'>
           <span className='font-bold'>Input:</span> num = 3749
           <br />
-          <span className='font-bold'>Output:</span> "MMMDCCXLIX"
+          <span className='font-bold'>Output:</span> &quot;MMMDCCXLIX&quot;
           <br />
           <span className='font-bold'>Explanation:</span>
           <br />
@@ -207,7 +207,7 @@ const Question = ({ ...props }) => {
         <p className='pl-2 border-l-4 border-white/50'>
           <span className='font-bold'>Input:</span> num = 58
           <br />
-          <span className='font-bold'>Output:</span> "LVIII"
+          <span className='font-bold'>Output:</span> &quot;LVIII&quot;
           <br />
           <span className='font-bold'>Explanation:</span>
           <br />
@@ -220,7 +220,7 @@ const Question = ({ ...props }) => {
         <p className='pl-2 border-l-4 border-white/50'>
           <span className='font-bold'>Input:</span> num = 1994
           <br />
-          <span className='font-bold'>Output:</span> "MCMXCIV"
+          <span className='font-bold'>Output:</span> &quot;MCMXCIV&quot;
           <br />
           <span className='font-bold'>Explanation:</span>
           <br />
